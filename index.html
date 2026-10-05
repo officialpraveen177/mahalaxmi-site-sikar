@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aap Mahalaxmi Book - Official Free Telegram Service</title>
+
+    <!-- ================= META PIXEL CODE ================= -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1750532856203915');
+    fbq('track', 'PageView');
+    </script>
+
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1750532856203915&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- ================= END META PIXEL CODE ================= -->
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
     <script>
         tailwind.config = {
             theme: {
@@ -30,27 +56,44 @@
                             light: '#2AABEE'
                         }
                     },
+
                     fontFamily: {
                         sans: ['Plus Jakarta Sans', 'sans-serif'],
                         royal: ['Cinzel', 'serif']
                     },
+
                     animation: {
                         'pulse-glow': 'pulseGlow 2s infinite',
                         'float': 'float 3s ease-in-out infinite',
                         'shine': 'shine 2.5s infinite linear'
                     },
+
                     keyframes: {
                         pulseGlow: {
-                            '0%, 100%': { boxShadow: '0 0 15px rgba(255, 215, 0, 0.4), 0 0 25px rgba(34, 158, 217, 0.4)' },
-                            '50%': { boxShadow: '0 0 30px rgba(255, 215, 0, 0.8), 0 0 45px rgba(34, 158, 217, 0.7)' },
+                            '0%, 100%': {
+                                boxShadow: '0 0 15px rgba(255, 215, 0, 0.4), 0 0 25px rgba(34, 158, 217, 0.4)'
+                            },
+                            '50%': {
+                                boxShadow: '0 0 30px rgba(255, 215, 0, 0.8), 0 0 45px rgba(34, 158, 217, 0.7)'
+                            },
                         },
+
                         float: {
-                            '0%, 100%': { transform: 'translateY(0px)' },
-                            '50%': { transform: 'translateY(-8px)' },
+                            '0%, 100%': {
+                                transform: 'translateY(0px)'
+                            },
+                            '50%': {
+                                transform: 'translateY(-8px)'
+                            },
                         },
+
                         shine: {
-                            '0%': { backgroundPosition: '-200% 0' },
-                            '100%': { backgroundPosition: '200% 0' }
+                            '0%': {
+                                backgroundPosition: '-200% 0'
+                            },
+                            '100%': {
+                                backgroundPosition: '200% 0'
+                            }
                         }
                     }
                 }
@@ -59,25 +102,43 @@
     </script>
 
     <style>
-        html { scroll-behavior: smooth; }
-        
+        html {
+            scroll-behavior: smooth;
+        }
+
         .bg-royal-grid {
-            background-image: radial-gradient(rgba(255, 215, 0, 0.12) 1px, transparent 1px);
+            background-image: radial-gradient(
+                rgba(255, 215, 0, 0.12) 1px,
+                transparent 1px
+            );
             background-size: 24px 24px;
         }
 
         .gold-gradient-text {
-            background: linear-gradient(135deg, #FFF5B8 0%, #FFD700 50%, #B8860B 100%);
+            background: linear-gradient(
+                135deg,
+                #FFF5B8 0%,
+                #FFD700 50%,
+                #B8860B 100%
+            );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
         .gold-border-gradient {
-            border-image: linear-gradient(135deg, #FFD700, #B8860B) 1;
+            border-image: linear-gradient(
+                135deg,
+                #FFD700,
+                #B8860B
+            ) 1;
         }
 
         .metallic-card {
-            background: linear-gradient(145deg, rgba(28, 37, 65, 0.9), rgba(11, 19, 43, 0.95));
+            background: linear-gradient(
+                145deg,
+                rgba(28, 37, 65, 0.9),
+                rgba(11, 19, 43, 0.95)
+            );
             border: 1px solid rgba(255, 215, 0, 0.25);
         }
 
@@ -87,601 +148,1117 @@
         }
 
         .badge-royal {
-            background: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%);
+            background: linear-gradient(
+                135deg,
+                #FFD700 0%,
+                #D4AF37 100%
+            );
             color: #060B1E;
         }
 
         .gold-button {
-            background: linear-gradient(135deg, #FFE57F 0%, #FFD700 50%, #B8860B 100%);
+            background: linear-gradient(
+                135deg,
+                #FFE57F 0%,
+                #FFD700 50%,
+                #B8860B 100%
+            );
             color: #060B1E;
             font-weight: 800;
         }
 
         .gold-button:hover {
-            background: linear-gradient(135deg, #FFD700 0%, #FFE57F 50%, #D4AF37 100%);
+            background: linear-gradient(
+                135deg,
+                #FFD700 0%,
+                #FFE57F 50%,
+                #D4AF37 100%
+            );
         }
     </style>
 </head>
+
 <body class="bg-mahalaxmi-navyDark text-slate-100 font-sans min-h-screen flex flex-col justify-between selection:bg-mahalaxmi-gold selection:text-mahalaxmi-navyDark">
 
-    <!-- Navigation Bar -->
+    <!-- ================= NAVIGATION BAR ================= -->
     <header class="sticky top-0 z-50 backdrop-blur-xl bg-mahalaxmi-navyDark/90 border-b border-mahalaxmi-gold/30">
+
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
             <div class="flex items-center justify-between h-20">
-                
+
                 <!-- Logo -->
-                <div class="flex items-center space-x-3 cursor-pointer" onclick="navigateTo('home')">
+                <div class="flex items-center space-x-3 cursor-pointer"
+                     onclick="navigateTo('home')">
+
                     <div class="relative">
+
                         <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-mahalaxmi-goldDark via-mahalaxmi-gold to-yellow-200 flex items-center justify-center text-mahalaxmi-navyDark shadow-lg shadow-mahalaxmi-gold/20 border border-yellow-300">
+
                             <i class="fa-solid fa-crown text-2xl"></i>
+
                         </div>
+
                         <i class="fa-solid fa-star absolute -top-1 -right-1 text-mahalaxmi-brightYellow text-xs animate-pulse"></i>
+
                     </div>
+
                     <div>
-                        <span class="text-xl sm:text-2xl font-black font-royal tracking-wider gold-gradient-text block leading-none">AAP MAHALAXMI</span>
-                        <span class="text-[10px] sm:text-xs text-telegram-light font-extrabold tracking-widest uppercase">Official Booking Hub</span>
+
+                        <span class="text-xl sm:text-2xl font-black font-royal tracking-wider gold-gradient-text block leading-none">
+                            AAP MAHALAXMI
+                        </span>
+
+                        <span class="text-[10px] sm:text-xs text-telegram-light font-extrabold tracking-widest uppercase">
+                            Official Booking Hub
+                        </span>
+
                     </div>
+
                 </div>
 
-                <!-- Desktop Navigation Menu -->
+                <!-- Desktop Navigation -->
                 <nav class="hidden md:flex space-x-1 lg:space-x-2 bg-mahalaxmi-navyLight/80 p-1.5 rounded-full border border-mahalaxmi-gold/25 shadow-inner">
-                    <button onclick="navigateTo('home')" id="nav-home" class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-mahalaxmi-navyDark bg-gradient-to-r from-mahalaxmi-gold to-mahalaxmi-goldLight shadow-md">Home</button>
-                    <button onclick="navigateTo('partners')" id="nav-partners" class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-slate-300 hover:text-white hover:bg-slate-800">Partners</button>
-                    <button onclick="navigateTo('how')" id="nav-how" class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-slate-300 hover:text-white hover:bg-slate-800">How It Works</button>
-                    <button onclick="navigateTo('support')" id="nav-support" class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-slate-300 hover:text-white hover:bg-slate-800">24/7 VIP Support</button>
-                    <button onclick="navigateTo('join')" id="nav-join" class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-slate-300 hover:text-white hover:bg-slate-800">Join Channel</button>
+
+                    <button onclick="navigateTo('home')"
+                            id="nav-home"
+                            class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-mahalaxmi-navyDark bg-gradient-to-r from-mahalaxmi-gold to-mahalaxmi-goldLight shadow-md">
+                        Home
+                    </button>
+
+                    <button onclick="navigateTo('partners')"
+                            id="nav-partners"
+                            class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-slate-300 hover:text-white hover:bg-slate-800">
+                        Partners
+                    </button>
+
+                    <button onclick="navigateTo('how')"
+                            id="nav-how"
+                            class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-slate-300 hover:text-white hover:bg-slate-800">
+                        How It Works
+                    </button>
+
+                    <button onclick="navigateTo('support')"
+                            id="nav-support"
+                            class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-slate-300 hover:text-white hover:bg-slate-800">
+                        24/7 VIP Support
+                    </button>
+
+                    <button onclick="navigateTo('join')"
+                            id="nav-join"
+                            class="nav-btn px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 text-slate-300 hover:text-white hover:bg-slate-800">
+                        Join Channel
+                    </button>
+
                 </nav>
 
                 <!-- Header Actions -->
                 <div class="hidden sm:flex items-center space-x-3">
-                    <button onclick="openConfigModal()" class="p-2.5 rounded-xl bg-mahalaxmi-navyLight text-mahalaxmi-gold hover:text-white hover:bg-slate-700 transition border border-mahalaxmi-gold/30" title="Set Telegram URL">
+
+                    <button onclick="openConfigModal()"
+                            class="p-2.5 rounded-xl bg-mahalaxmi-navyLight text-mahalaxmi-gold hover:text-white hover:bg-slate-700 transition border border-mahalaxmi-gold/30"
+                            title="Set Telegram URL">
+
                         <i class="fa-solid fa-gear text-lg"></i>
+
                     </button>
-                    <a href="https://t.me/" target="_blank" class="tg-link-btn inline-flex items-center px-5 py-2.5 rounded-xl font-extrabold text-white bg-gradient-to-r from-telegram to-telegram-dark hover:from-telegram-light hover:to-telegram transition shadow-lg shadow-telegram/30 transform hover:-translate-y-0.5 border border-cyan-400/30">
+
+                    <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="tg-link-btn inline-flex items-center px-5 py-2.5 rounded-xl font-extrabold text-white bg-gradient-to-r from-telegram to-telegram-dark hover:from-telegram-light hover:to-telegram transition shadow-lg shadow-telegram/30 transform hover:-translate-y-0.5 border border-cyan-400/30">
+
                         <i class="fa-brands fa-telegram text-xl mr-2"></i>
+
                         <span>Join Telegram</span>
+
                     </a>
+
                 </div>
 
                 <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center space-x-2">
-                    <button onclick="openConfigModal()" class="p-2 rounded-lg bg-mahalaxmi-navyLight text-mahalaxmi-gold">
+
+                    <button onclick="openConfigModal()"
+                            class="p-2 rounded-lg bg-mahalaxmi-navyLight text-mahalaxmi-gold">
+
                         <i class="fa-solid fa-gear"></i>
+
                     </button>
-                    <button onclick="toggleMobileMenu()" class="p-2 rounded-lg bg-mahalaxmi-navyLight text-slate-300 hover:text-white border border-slate-700">
-                        <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+
+                    <button onclick="toggleMobileMenu()"
+                            class="p-2 rounded-lg bg-mahalaxmi-navyLight text-slate-300 hover:text-white border border-slate-700">
+
+                        <i class="fa-solid fa-bars text-xl"
+                           id="menu-icon"></i>
+
                     </button>
+
                 </div>
+
             </div>
+
         </div>
 
-        <!-- Mobile Drawer Navigation -->
-        <div id="mobile-menu" class="hidden md:hidden bg-mahalaxmi-navy border-b border-mahalaxmi-gold/30 px-4 pt-2 pb-6 space-y-2">
-            <button onclick="navigateTo('home'); toggleMobileMenu();" class="w-full text-left px-4 py-3 rounded-xl font-bold text-mahalaxmi-navyDark bg-mahalaxmi-gold">Home</button>
-            <button onclick="navigateTo('partners'); toggleMobileMenu();" class="w-full text-left px-4 py-3 rounded-xl font-bold text-slate-300 hover:bg-slate-800">Partner Platforms</button>
-            <button onclick="navigateTo('how'); toggleMobileMenu();" class="w-full text-left px-4 py-3 rounded-xl font-bold text-slate-300 hover:bg-slate-800">How It Works</button>
-            <button onclick="navigateTo('support'); toggleMobileMenu();" class="w-full text-left px-4 py-3 rounded-xl font-bold text-slate-300 hover:bg-slate-800">24/7 VIP Support</button>
-            <button onclick="navigateTo('join'); toggleMobileMenu();" class="w-full text-left px-4 py-3 rounded-xl font-bold text-slate-300 hover:bg-slate-800">Join Telegram & Config</button>
-            <a href="https://t.me/" target="_blank" class="tg-link-btn w-full mt-4 inline-flex items-center justify-center px-5 py-3 rounded-xl font-black text-white bg-gradient-to-r from-telegram to-telegram-dark shadow-lg border border-cyan-400/40">
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu"
+             class="hidden md:hidden bg-mahalaxmi-navy border-b border-mahalaxmi-gold/30 px-4 pt-2 pb-6 space-y-2">
+
+            <button onclick="navigateTo('home'); toggleMobileMenu();"
+                    class="w-full text-left px-4 py-3 rounded-xl font-bold text-mahalaxmi-navyDark bg-mahalaxmi-gold">
+                Home
+            </button>
+
+            <button onclick="navigateTo('partners'); toggleMobileMenu();"
+                    class="w-full text-left px-4 py-3 rounded-xl font-bold text-slate-300 hover:bg-slate-800">
+                Partner Platforms
+            </button>
+
+            <button onclick="navigateTo('how'); toggleMobileMenu();"
+                    class="w-full text-left px-4 py-3 rounded-xl font-bold text-slate-300 hover:bg-slate-800">
+                How It Works
+            </button>
+
+            <button onclick="navigateTo('support'); toggleMobileMenu();"
+                    class="w-full text-left px-4 py-3 rounded-xl font-bold text-slate-300 hover:bg-slate-800">
+                24/7 VIP Support
+            </button>
+
+            <button onclick="navigateTo('join'); toggleMobileMenu();"
+                    class="w-full text-left px-4 py-3 rounded-xl font-bold text-slate-300 hover:bg-slate-800">
+                Join Telegram & Config
+            </button>
+
+            <a href="https://t.me/+KmY_WfdYhas3OTdl"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="tg-link-btn w-full mt-4 inline-flex items-center justify-center px-5 py-3 rounded-xl font-black text-white bg-gradient-to-r from-telegram to-telegram-dark shadow-lg border border-cyan-400/40">
+
                 <i class="fa-brands fa-telegram text-2xl mr-2"></i>
+
                 <span>Join Telegram Channel</span>
+
             </a>
+
         </div>
+
     </header>
 
     <main class="flex-grow">
-        
-        <!-- ================= PAGE 1: HOME ================= -->
-        <section id="page-home" class="page-section relative overflow-hidden py-10 lg:py-16 bg-royal-grid">
-            <!-- Royal Background Glows -->
+
+        <!-- ================= PAGE 1 HOME ================= -->
+        <section id="page-home"
+                 class="page-section relative overflow-hidden py-10 lg:py-16 bg-royal-grid">
+
             <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-mahalaxmi-gold/15 rounded-full filter blur-3xl pointer-events-none"></div>
+
             <div class="absolute bottom-10 right-10 w-96 h-96 bg-telegram/20 rounded-full filter blur-3xl pointer-events-none"></div>
 
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-                    
-                    <!-- Hero Main Content -->
+
+                    <!-- Hero -->
                     <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                        
-                        <!-- Ribbon Badge -->
+
                         <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-mahalaxmi-navyLight/90 border border-mahalaxmi-gold/50 shadow-inner">
+
                             <i class="fa-solid fa-shield-halved text-mahalaxmi-gold animate-bounce"></i>
-                            <span class="text-xs sm:text-sm font-black text-white tracking-wider uppercase">100% Safe & Secure Trusted Book</span>
+
+                            <span class="text-xs sm:text-sm font-black text-white tracking-wider uppercase">
+                                100% Safe & Secure Trusted Book
+                            </span>
+
                         </div>
 
-                        <!-- Slogan Headline -->
                         <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-white leading-tight">
-                            <span class="font-royal gold-gradient-text text-3xl sm:text-5xl block mb-2">AAP MAHALAXMI BOOK</span>
+
+                            <span class="font-royal gold-gradient-text text-3xl sm:text-5xl block mb-2">
+                                AAP MAHALAXMI BOOK
+                            </span>
+
                             <span class="bg-gradient-to-r from-mahalaxmi-goldDark via-mahalaxmi-gold to-yellow-300 text-mahalaxmi-navyDark px-4 py-1.5 inline-block transform -rotate-1 rounded-xl shadow-2xl font-black text-2xl sm:text-4xl">
                                 SMALL STEPS BIG INCOME
-                            </span> <br>
+                            </span>
+
+                            <br>
+
                             <span class="text-xl sm:text-3xl font-extrabold text-slate-200 mt-3 block tracking-wide">
                                 PLAY • EARN • WIN • GROW
                             </span>
+
                         </h1>
 
                         <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
-                            Welcome to India's most trusted betting & gaming platform exchange hub. Enjoy instant IDs, best market odds, and <span class="text-mahalaxmi-gold font-bold">24*7 Instant Deposit & Cashout</span> services.
+
+                            Welcome to India's most trusted betting & gaming platform exchange hub.
+                            Enjoy instant IDs, best market odds, and
+                            <span class="text-mahalaxmi-gold font-bold">
+                                24*7 Instant Deposit & Cashout
+                            </span>
+                            services.
+
                         </p>
 
-                        <!-- Key Feature Highlights -->
                         <div class="grid grid-cols-2 gap-3 pt-2 max-w-lg mx-auto lg:mx-0">
+
                             <div class="badge-royal p-3 rounded-xl font-black text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-md">
                                 <i class="fa-solid fa-bolt text-lg"></i>
                                 <span>Fastest 24/7 Withdrawal</span>
                             </div>
+
                             <div class="bg-mahalaxmi-navyLight border border-mahalaxmi-gold/40 p-3 rounded-xl text-mahalaxmi-gold font-black text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-md">
                                 <i class="fa-solid fa-check-double text-lg text-green-400"></i>
                                 <span>100% Trusted Sites</span>
                             </div>
+
                             <div class="bg-mahalaxmi-navyLight border border-mahalaxmi-gold/40 p-3 rounded-xl text-white font-black text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-md">
                                 <i class="fa-solid fa-headset text-lg text-telegram-light"></i>
                                 <span>24*7 Live Customer Care</span>
                             </div>
+
                             <div class="badge-royal p-3 rounded-xl font-black text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-md">
                                 <i class="fa-solid fa-gift text-lg"></i>
                                 <span>Exclusive Ref Bonuses</span>
                             </div>
+
                         </div>
 
-                        <!-- CTA Join Button -->
                         <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                            <a href="https://t.me/" target="_blank" class="tg-link-btn animate-pulse-glow w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-telegram via-telegram-light to-telegram-dark text-white font-black text-xl flex items-center justify-center space-x-3 shadow-2xl hover:scale-105 transition duration-300 border-2 border-cyan-300/40">
+
+                            <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="tg-link-btn animate-pulse-glow w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-telegram via-telegram-light to-telegram-dark text-white font-black text-xl flex items-center justify-center space-x-3 shadow-2xl hover:scale-105 transition duration-300 border-2 border-cyan-300/40">
+
                                 <i class="fa-brands fa-telegram text-3xl"></i>
+
                                 <span>Get Instant ID on Telegram</span>
+
                                 <i class="fa-solid fa-arrow-right"></i>
+
                             </a>
+
                         </div>
 
                     </div>
 
-                    <!-- Visual Gold Showcase Card -->
+                    <!-- Showcase -->
                     <div class="lg:col-span-5 relative">
+
                         <div class="relative mx-auto max-w-md lg:max-w-none bg-gradient-to-b from-mahalaxmi-navyLight via-mahalaxmi-navy to-slate-950 p-6 rounded-3xl border-2 border-mahalaxmi-gold/50 shadow-2xl backdrop-blur-xl">
-                            
+
                             <div class="text-center mb-6">
+
                                 <div class="inline-block relative">
-                                    <span class="font-royal gold-gradient-text text-2xl font-black block">AAP MAHALAXMI</span>
+
+                                    <span class="font-royal gold-gradient-text text-2xl font-black block">
+                                        AAP MAHALAXMI
+                                    </span>
+
                                     <div class="bg-black text-mahalaxmi-gold text-lg font-black px-6 py-1 rounded-xl border border-mahalaxmi-gold shadow-lg mt-1">
                                         OFFICIAL BOOKING
                                     </div>
+
                                     <i class="fa-solid fa-crown text-mahalaxmi-gold text-2xl absolute -top-5 -right-3"></i>
+
                                 </div>
+
                             </div>
 
-                            <!-- Highlights List -->
                             <div class="space-y-3 mb-6">
+
                                 <div class="bg-mahalaxmi-navyLight/90 border border-mahalaxmi-gold/30 p-3.5 rounded-2xl flex items-center justify-between">
+
                                     <div class="flex items-center space-x-3">
                                         <i class="fa-solid fa-clock-rotate-left text-mahalaxmi-gold text-xl"></i>
-                                        <span class="text-sm font-extrabold text-white">Deposit & Withdrawal</span>
+                                        <span class="text-sm font-extrabold text-white">
+                                            Deposit & Withdrawal
+                                        </span>
                                     </div>
-                                    <span class="text-xs bg-green-500/20 text-green-400 font-black px-2.5 py-1 rounded-full border border-green-500/40">24*7 Active</span>
+
+                                    <span class="text-xs bg-green-500/20 text-green-400 font-black px-2.5 py-1 rounded-full border border-green-500/40">
+                                        24*7 Active
+                                    </span>
+
                                 </div>
 
                                 <div class="bg-mahalaxmi-navyLight/90 border border-mahalaxmi-gold/30 p-3.5 rounded-2xl flex items-center justify-between">
+
                                     <div class="flex items-center space-x-3">
                                         <i class="fa-solid fa-shield-heart text-mahalaxmi-gold text-xl"></i>
-                                        <span class="text-sm font-extrabold text-white">Trust & Security</span>
+                                        <span class="text-sm font-extrabold text-white">
+                                            Trust & Security
+                                        </span>
                                     </div>
-                                    <span class="text-xs bg-mahalaxmi-gold/20 text-mahalaxmi-gold font-black px-2.5 py-1 rounded-full border border-mahalaxmi-gold/40">100% Safe</span>
+
+                                    <span class="text-xs bg-mahalaxmi-gold/20 text-mahalaxmi-gold font-black px-2.5 py-1 rounded-full border border-mahalaxmi-gold/40">
+                                        100% Safe
+                                    </span>
+
                                 </div>
 
                                 <div class="bg-mahalaxmi-navyLight/90 border border-mahalaxmi-gold/30 p-3.5 rounded-2xl flex items-center justify-between">
+
                                     <div class="flex items-center space-x-3">
                                         <i class="fa-solid fa-trophy text-mahalaxmi-gold text-xl"></i>
-                                        <span class="text-sm font-extrabold text-white">Minimum Deposit</span>
+                                        <span class="text-sm font-extrabold text-white">
+                                            Minimum Deposit
+                                        </span>
                                     </div>
-                                    <span class="text-xs bg-yellow-400/20 text-yellow-300 font-black px-2.5 py-1 rounded-full border border-yellow-400/40">Lowest Rates</span>
+
+                                    <span class="text-xs bg-yellow-400/20 text-yellow-300 font-black px-2.5 py-1 rounded-full border border-yellow-400/40">
+                                        Lowest Rates
+                                    </span>
+
                                 </div>
+
                             </div>
 
-                            <!-- Direct Channel Link Button -->
-                            <a href="https://t.me/" target="_blank" class="tg-link-btn block text-center bg-gradient-to-r from-telegram to-telegram-dark hover:from-telegram-light hover:to-telegram text-white font-black py-3.5 px-4 rounded-2xl text-lg shadow-xl transition transform active:scale-95 border border-cyan-400/40">
+                            <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="tg-link-btn block text-center bg-gradient-to-r from-telegram to-telegram-dark hover:from-telegram-light hover:to-telegram text-white font-black py-3.5 px-4 rounded-2xl text-lg shadow-xl transition transform active:scale-95 border border-cyan-400/40">
+
                                 <i class="fa-brands fa-telegram text-2xl align-middle mr-2"></i>
                                 Join Telegram Channel
+
                             </a>
 
                         </div>
+
                     </div>
 
                 </div>
 
-                <!-- Featured Partners Banner Grid (Home) -->
+                <!-- Partners -->
                 <div class="mt-20">
+
                     <div class="text-center max-w-3xl mx-auto mb-10">
+
                         <span class="px-4 py-1.5 rounded-full bg-mahalaxmi-gold/10 text-mahalaxmi-gold border border-mahalaxmi-gold/30 text-xs font-black uppercase tracking-widest">
                             ⚡ Authorized Platforms
                         </span>
+
                         <h2 class="text-3xl font-black text-white mt-3">
-                            Popular <span class="gold-gradient-text font-royal">Partner Exchanges</span>
+                            Popular
+                            <span class="gold-gradient-text font-royal">
+                                Partner Exchanges
+                            </span>
                         </h2>
+
                     </div>
 
                     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+
                         <!-- Lotus365 -->
                         <div class="metallic-card p-5 rounded-2xl text-center flex flex-col justify-between">
+
                             <div>
+
                                 <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-gradient-to-tr from-yellow-500 to-amber-300 flex items-center justify-center text-mahalaxmi-navyDark font-black text-xl">
                                     L365
                                 </div>
-                                <h3 class="font-black text-white text-lg">Lotus365</h3>
-                                <p class="text-xs text-slate-400 mt-1">Instant ID & Daily Rewards</p>
+
+                                <h3 class="font-black text-white text-lg">
+                                    Lotus365
+                                </h3>
+
+                                <p class="text-xs text-slate-400 mt-1">
+                                    Instant ID & Daily Rewards
+                                </p>
+
                             </div>
-                            <a href="https://t.me/" target="_blank" class="tg-link-btn mt-4 inline-block py-2 px-3 rounded-xl gold-button text-xs font-black transition">
+
+                            <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="tg-link-btn mt-4 inline-block py-2 px-3 rounded-xl gold-button text-xs font-black transition">
                                 Play on Telegram
                             </a>
+
                         </div>
 
                         <!-- Laser247 -->
                         <div class="metallic-card p-5 rounded-2xl text-center flex flex-col justify-between">
+
                             <div>
+
                                 <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center text-white font-black text-xl">
                                     L247
                                 </div>
-                                <h3 class="font-black text-white text-lg">Laser247</h3>
-                                <p class="text-xs text-slate-400 mt-1">High Odds Sportsbook</p>
+
+                                <h3 class="font-black text-white text-lg">
+                                    Laser247
+                                </h3>
+
+                                <p class="text-xs text-slate-400 mt-1">
+                                    High Odds Sportsbook
+                                </p>
+
                             </div>
-                            <a href="https://t.me/" target="_blank" class="tg-link-btn mt-4 inline-block py-2 px-3 rounded-xl gold-button text-xs font-black transition">
+
+                            <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="tg-link-btn mt-4 inline-block py-2 px-3 rounded-xl gold-button text-xs font-black transition">
                                 Play on Telegram
                             </a>
+
                         </div>
 
-                        <!-- Betbhai2026 -->
+                        <!-- Betbhai -->
                         <div class="metallic-card p-5 rounded-2xl text-center flex flex-col justify-between">
+
                             <div>
+
                                 <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-gradient-to-tr from-red-600 to-rose-400 flex items-center justify-center text-white font-black text-xl">
                                     BB26
                                 </div>
-                                <h3 class="font-black text-white text-lg">Betbhai2026</h3>
-                                <p class="text-xs text-slate-400 mt-1">Fastest Live Cashout</p>
+
+                                <h3 class="font-black text-white text-lg">
+                                    Betbhai2026
+                                </h3>
+
+                                <p class="text-xs text-slate-400 mt-1">
+                                    Fastest Live Cashout
+                                </p>
+
                             </div>
-                            <a href="https://t.me/" target="_blank" class="tg-link-btn mt-4 inline-block py-2 px-3 rounded-xl gold-button text-xs font-black transition">
+
+                            <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="tg-link-btn mt-4 inline-block py-2 px-3 rounded-xl gold-button text-xs font-black transition">
                                 Play on Telegram
                             </a>
+
                         </div>
 
                         <!-- Fairplay -->
                         <div class="metallic-card p-5 rounded-2xl text-center flex flex-col justify-between">
+
                             <div>
+
                                 <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-300 flex items-center justify-center text-mahalaxmi-navyDark font-black text-xl">
                                     FP
                                 </div>
-                                <h3 class="font-black text-white text-lg">Fairplay</h3>
-                                <p class="text-xs text-slate-400 mt-1">100% Genuine Rates</p>
+
+                                <h3 class="font-black text-white text-lg">
+                                    Fairplay
+                                </h3>
+
+                                <p class="text-xs text-slate-400 mt-1">
+                                    100% Genuine Rates
+                                </p>
+
                             </div>
-                            <a href="https://t.me/" target="_blank" class="tg-link-btn mt-4 inline-block py-2 px-3 rounded-xl gold-button text-xs font-black transition">
+
+                            <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="tg-link-btn mt-4 inline-block py-2 px-3 rounded-xl gold-button text-xs font-black transition">
                                 Play on Telegram
                             </a>
+
                         </div>
+
                     </div>
 
                     <div class="text-center mt-8">
-                        <button onclick="navigateTo('partners')" class="inline-flex items-center space-x-2 px-6 py-3 rounded-xl bg-mahalaxmi-navyLight border border-mahalaxmi-gold/40 text-mahalaxmi-gold font-bold hover:bg-mahalaxmi-gold hover:text-mahalaxmi-navyDark transition">
+
+                        <button onclick="navigateTo('partners')"
+                                class="inline-flex items-center space-x-2 px-6 py-3 rounded-xl bg-mahalaxmi-navyLight border border-mahalaxmi-gold/40 text-mahalaxmi-gold font-bold hover:bg-mahalaxmi-gold hover:text-mahalaxmi-navyDark transition">
+
                             <span>View All 8+ Partner Platforms</span>
+
                             <i class="fa-solid fa-arrow-right"></i>
+
                         </button>
+
                     </div>
+
                 </div>
 
             </div>
+
         </section>
 
-        <!-- ================= PAGE 2: PARTNER PLATFORMS DIRECTORY ================= -->
-        <section id="page-partners" class="page-section hidden py-16 bg-mahalaxmi-navy/60 min-h-[70vh]">
+        <!-- ================= PAGE 2 PARTNERS ================= -->
+        <section id="page-partners"
+                 class="page-section hidden py-16 bg-mahalaxmi-navy/60 min-h-[70vh]">
+
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                
+
                 <div class="text-center max-w-3xl mx-auto mb-16">
+
                     <span class="px-4 py-1.5 rounded-full bg-mahalaxmi-gold/10 text-mahalaxmi-gold border border-mahalaxmi-gold/30 text-xs font-black uppercase tracking-widest">
                         👑 Complete Directory
                     </span>
+
                     <h2 class="text-3xl sm:text-5xl font-black text-white mt-4 mb-4">
-                        Aap Mahalaxmi <span class="gold-gradient-text font-royal">Partner Sites</span>
+                        Aap Mahalaxmi
+                        <span class="gold-gradient-text font-royal">
+                            Partner Sites
+                        </span>
                     </h2>
+
                     <p class="text-slate-300 text-lg">
                         Select your preferred gaming platform below and get your instant ID via our Telegram channel.
                     </p>
+
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    
+
                     <!-- Partner 1 -->
                     <div class="metallic-card p-6 rounded-3xl flex flex-col justify-between">
+
                         <div>
+
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full font-black border border-yellow-400/40">Verified</span>
+
+                                <span class="text-xs bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full font-black border border-yellow-400/40">
+                                    Verified
+                                </span>
+
                                 <i class="fa-solid fa-star text-mahalaxmi-gold"></i>
+
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-2">Lotus365</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-2">
+                                Lotus365
+                            </h3>
+
                             <p class="text-slate-300 text-xs leading-relaxed mb-4">
                                 Premium sports exchange, casino games, live dealer, and instant ref payouts.
                             </p>
+
                         </div>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
                             Get Lotus365 ID
                         </a>
+
                     </div>
 
                     <!-- Partner 2 -->
                     <div class="metallic-card p-6 rounded-3xl flex flex-col justify-between">
+
                         <div>
+
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs bg-blue-500/20 text-cyan-300 px-3 py-1 rounded-full font-black border border-cyan-400/40">High Odds</span>
+
+                                <span class="text-xs bg-blue-500/20 text-cyan-300 px-3 py-1 rounded-full font-black border border-cyan-400/40">
+                                    High Odds
+                                </span>
+
                                 <i class="fa-solid fa-star text-mahalaxmi-gold"></i>
+
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-2">Laser247</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-2">
+                                Laser247
+                            </h3>
+
                             <p class="text-slate-300 text-xs leading-relaxed mb-4">
                                 Top rated international sports exchange with multi-market options.
                             </p>
+
                         </div>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
                             Get Laser247 ID
                         </a>
+
                     </div>
 
                     <!-- Partner 3 -->
                     <div class="metallic-card p-6 rounded-3xl flex flex-col justify-between">
+
                         <div>
+
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs bg-rose-500/20 text-rose-300 px-3 py-1 rounded-full font-black border border-rose-400/40">2026 Edition</span>
+
+                                <span class="text-xs bg-rose-500/20 text-rose-300 px-3 py-1 rounded-full font-black border border-rose-400/40">
+                                    2026 Edition
+                                </span>
+
                                 <i class="fa-solid fa-star text-mahalaxmi-gold"></i>
+
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-2">Betbhai2026</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-2">
+                                Betbhai2026
+                            </h3>
+
                             <p class="text-slate-300 text-xs leading-relaxed mb-4">
                                 Ultra-fast odds updates and 24*7 direct automated refill options.
                             </p>
+
                         </div>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
                             Get Betbhai ID
                         </a>
+
                     </div>
 
                     <!-- Partner 4 -->
                     <div class="metallic-card p-6 rounded-3xl flex flex-col justify-between">
+
                         <div>
+
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full font-black border border-emerald-400/40">Top Trusted</span>
+
+                                <span class="text-xs bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full font-black border border-emerald-400/40">
+                                    Top Trusted
+                                </span>
+
                                 <i class="fa-solid fa-star text-mahalaxmi-gold"></i>
+
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-2">Fairplay</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-2">
+                                Fairplay
+                            </h3>
+
                             <p class="text-slate-300 text-xs leading-relaxed mb-4">
                                 Industry leader in fair play standards and lightning fast settlement.
                             </p>
+
                         </div>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
                             Get Fairplay ID
                         </a>
+
                     </div>
 
                     <!-- Partner 5 -->
                     <div class="metallic-card p-6 rounded-3xl flex flex-col justify-between">
+
                         <div>
+
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full font-black border border-orange-400/40">Popular</span>
+
+                                <span class="text-xs bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full font-black border border-orange-400/40">
+                                    Popular
+                                </span>
+
                                 <i class="fa-solid fa-star text-mahalaxmi-gold"></i>
+
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-2">Tiger2026</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-2">
+                                Tiger2026
+                            </h3>
+
                             <p class="text-slate-300 text-xs leading-relaxed mb-4">
                                 High security exchange tailored for high stakes gaming enthusiasts.
                             </p>
+
                         </div>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
                             Get Tiger2026 ID
                         </a>
+
                     </div>
 
                     <!-- Partner 6 -->
                     <div class="metallic-card p-6 rounded-3xl flex flex-col justify-between">
+
                         <div>
+
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full font-black border border-purple-400/40">Exclusive</span>
+
+                                <span class="text-xs bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full font-black border border-purple-400/40">
+                                    Exclusive
+                                </span>
+
                                 <i class="fa-solid fa-star text-mahalaxmi-gold"></i>
+
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-2">Deal2026</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-2">
+                                Deal2026
+                            </h3>
+
                             <p class="text-slate-300 text-xs leading-relaxed mb-4">
                                 Seamless user interface and best liquidity across sports events.
                             </p>
+
                         </div>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
                             Get Deal2026 ID
                         </a>
+
                     </div>
 
                     <!-- Partner 7 -->
                     <div class="metallic-card p-6 rounded-3xl flex flex-col justify-between">
+
                         <div>
+
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full font-black border border-yellow-400/40">Instant Cash</span>
+
+                                <span class="text-xs bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full font-black border border-yellow-400/40">
+                                    Instant Cash
+                                </span>
+
                                 <i class="fa-solid fa-star text-mahalaxmi-gold"></i>
+
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-2">Winbuzz2026</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-2">
+                                Winbuzz2026
+                            </h3>
+
                             <p class="text-slate-300 text-xs leading-relaxed mb-4">
                                 Popular platform for IPL, Tennis, Football and live casino games.
                             </p>
+
                         </div>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
                             Get Winbuzz ID
                         </a>
+
                     </div>
 
                     <!-- Partner 8 -->
                     <div class="metallic-card p-6 rounded-3xl flex flex-col justify-between">
+
                         <div>
+
                             <div class="flex items-center justify-between mb-4">
-                                <span class="text-xs bg-green-500/20 text-green-300 px-3 py-1 rounded-full font-black border border-green-400/40">Fastest ID</span>
+
+                                <span class="text-xs bg-green-500/20 text-green-300 px-3 py-1 rounded-full font-black border border-green-400/40">
+                                    Fastest ID
+                                </span>
+
                                 <i class="fa-solid fa-star text-mahalaxmi-gold"></i>
+
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-2">Khiladi2026</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-2">
+                                Khiladi2026
+                            </h3>
+
                             <p class="text-slate-300 text-xs leading-relaxed mb-4">
                                 Dedicated support with zero withdrawal limits and instant transfers.
                             </p>
+
                         </div>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn w-full py-3 rounded-xl gold-button text-center text-sm font-black transition block">
                             Get Khiladi ID
                         </a>
+
                     </div>
 
                 </div>
 
             </div>
+
         </section>
 
-        <!-- ================= PAGE 3: HOW IT WORKS ================= -->
-        <section id="page-how" class="page-section hidden py-16 min-h-[70vh]">
+        <!-- ================= PAGE 3 HOW IT WORKS ================= -->
+        <section id="page-how"
+                 class="page-section hidden py-16 min-h-[70vh]">
+
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                
+
                 <div class="text-center max-w-3xl mx-auto mb-16">
+
                     <span class="px-4 py-1.5 rounded-full bg-mahalaxmi-gold/10 text-mahalaxmi-gold border border-mahalaxmi-gold/30 text-xs font-black uppercase tracking-widest">
                         🚀 Simple 3 Step Process
                     </span>
+
                     <h2 class="text-3xl sm:text-5xl font-black text-white mt-4 mb-4">
-                        How To Start With <span class="gold-gradient-text font-royal">Aap Mahalaxmi</span>
+                        How To Start With
+                        <span class="gold-gradient-text font-royal">
+                            Aap Mahalaxmi
+                        </span>
                     </h2>
+
                     <p class="text-slate-300 text-lg">
                         Follow three easy steps to start playing and earning with total security.
                     </p>
+
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    
+
                     <!-- Step 1 -->
                     <div class="metallic-card p-8 rounded-3xl relative flex flex-col justify-between">
+
                         <div>
+
                             <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-telegram to-cyan-400 text-white flex items-center justify-center text-3xl font-black mb-6 shadow-xl">
                                 1
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-3">Join Telegram</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-3">
+                                Join Telegram
+                            </h3>
+
                             <p class="text-slate-300 text-sm leading-relaxed">
                                 Click any Telegram button on this site to immediately connect with our official customer service channel.
                             </p>
+
                         </div>
+
                         <div class="mt-8 pt-4 border-t border-slate-700/60 flex items-center text-telegram-light font-extrabold text-xs">
+
                             <i class="fa-brands fa-telegram text-lg mr-2"></i>
+
                             <span>Instant Connection</span>
+
                         </div>
+
                     </div>
 
                     <!-- Step 2 -->
                     <div class="metallic-card p-8 rounded-3xl relative flex flex-col justify-between border-2 border-mahalaxmi-gold">
+
                         <div>
+
                             <div class="w-16 h-16 rounded-2xl gold-button flex items-center justify-center text-3xl font-black mb-6 shadow-xl">
                                 2
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-3">Get ID & Deposit</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-3">
+                                Get ID & Deposit
+                            </h3>
+
                             <p class="text-slate-300 text-sm leading-relaxed">
                                 Message us your chosen platform (Lotus365, Laser247, etc.), receive your instant ID, and deposit via UPI or Bank.
                             </p>
+
                         </div>
+
                         <div class="mt-8 pt-4 border-t border-slate-700/60 flex items-center text-mahalaxmi-gold font-extrabold text-xs">
+
                             <i class="fa-solid fa-bolt text-lg mr-2"></i>
+
                             <span>24*7 Deposit Active</span>
+
                         </div>
+
                     </div>
 
                     <!-- Step 3 -->
                     <div class="metallic-card p-8 rounded-3xl relative flex flex-col justify-between">
+
                         <div>
+
                             <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-green-500 to-emerald-300 text-mahalaxmi-navyDark flex items-center justify-center text-3xl font-black mb-6 shadow-xl">
                                 3
                             </div>
-                            <h3 class="text-2xl font-black text-white mb-3">Play & Win Cashout</h3>
+
+                            <h3 class="text-2xl font-black text-white mb-3">
+                                Play & Win Cashout
+                            </h3>
+
                             <p class="text-slate-300 text-sm leading-relaxed">
                                 Play your favorite sports or casino games and request instant withdrawal to your bank account anytime 24/7!
                             </p>
+
                         </div>
+
                         <div class="mt-8 pt-4 border-t border-slate-700/60 flex items-center text-green-400 font-extrabold text-xs">
+
                             <i class="fa-solid fa-money-bill-wave text-lg mr-2"></i>
+
                             <span>Lightning Cashout</span>
+
                         </div>
+
                     </div>
 
                 </div>
 
                 <div class="text-center mt-12">
-                    <a href="https://t.me/" target="_blank" class="tg-link-btn inline-flex items-center px-8 py-4 rounded-2xl bg-gradient-to-r from-telegram via-telegram-light to-telegram-dark text-white font-black text-xl shadow-2xl hover:scale-105 transition border border-cyan-300/40">
+
+                    <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="tg-link-btn inline-flex items-center px-8 py-4 rounded-2xl bg-gradient-to-r from-telegram via-telegram-light to-telegram-dark text-white font-black text-xl shadow-2xl hover:scale-105 transition border border-cyan-300/40">
+
                         <i class="fa-brands fa-telegram text-3xl mr-3"></i>
+
                         <span>Start Step 1: Join Telegram Now</span>
+
                     </a>
+
                 </div>
 
             </div>
+
         </section>
 
-        <!-- ================= PAGE 4: VIP & 24/7 SUPPORT ================= -->
-        <section id="page-support" class="page-section hidden py-16 bg-mahalaxmi-navy/40 min-h-[70vh]">
+        <!-- ================= PAGE 4 SUPPORT ================= -->
+        <section id="page-support"
+                 class="page-section hidden py-16 bg-mahalaxmi-navy/40 min-h-[70vh]">
+
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                
+
                 <div class="text-center max-w-3xl mx-auto mb-16">
+
                     <span class="px-4 py-1.5 rounded-full bg-mahalaxmi-gold/10 text-mahalaxmi-gold border border-mahalaxmi-gold/30 text-xs font-black uppercase tracking-widest">
                         🎧 Dedicated Care
                     </span>
+
                     <h2 class="text-3xl sm:text-5xl font-black text-white mt-4 mb-4">
-                        24*7 <span class="gold-gradient-text font-royal">Customer Support</span>
+                        24*7
+                        <span class="gold-gradient-text font-royal">
+                            Customer Support
+                        </span>
                     </h2>
+
                     <p class="text-slate-300 text-lg">
                         We guarantee response within seconds. Your trust and satisfaction is our #1 priority.
                     </p>
+
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    
+
+                    <!-- Support 1 -->
                     <div class="metallic-card p-8 rounded-3xl text-center">
+
                         <div class="w-16 h-16 mx-auto rounded-2xl bg-mahalaxmi-gold/20 text-mahalaxmi-gold flex items-center justify-center text-3xl mb-6">
+
                             <i class="fa-solid fa-headset"></i>
+
                         </div>
-                        <h3 class="text-xl font-black text-white mb-2">24/7 Live Desk</h3>
+
+                        <h3 class="text-xl font-black text-white mb-2">
+                            24/7 Live Desk
+                        </h3>
+
                         <p class="text-slate-300 text-sm leading-relaxed mb-6">
                             Round-the-clock support agents available on Telegram for any queries or help.
                         </p>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn inline-block px-5 py-2.5 rounded-xl gold-button text-xs font-black">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn inline-block px-5 py-2.5 rounded-xl gold-button text-xs font-black">
                             Chat on Telegram
                         </a>
+
                     </div>
 
+                    <!-- Support 2 -->
                     <div class="metallic-card p-8 rounded-3xl text-center border-2 border-mahalaxmi-gold">
+
                         <div class="w-16 h-16 mx-auto rounded-2xl bg-green-500/20 text-green-400 flex items-center justify-center text-3xl mb-6">
+
                             <i class="fa-solid fa-hand-holding-dollar"></i>
+
                         </div>
-                        <h3 class="text-xl font-black text-white mb-2">24*7 Deposit & Refill</h3>
+
+                        <h3 class="text-xl font-black text-white mb-2">
+                            24*7 Deposit & Refill
+                        </h3>
+
                         <p class="text-slate-300 text-sm leading-relaxed mb-6">
                             Instant balance refill within 1 minute via all major UPI & Banking gateways.
                         </p>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn inline-block px-5 py-2.5 rounded-xl gold-button text-xs font-black">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn inline-block px-5 py-2.5 rounded-xl gold-button text-xs font-black">
                             Instant Refill
                         </a>
+
                     </div>
 
+                    <!-- Support 3 -->
                     <div class="metallic-card p-8 rounded-3xl text-center">
+
                         <div class="w-16 h-16 mx-auto rounded-2xl bg-telegram/20 text-telegram-light flex items-center justify-center text-3xl mb-6">
+
                             <i class="fa-solid fa-shield-check"></i>
+
                         </div>
-                        <h3 class="text-xl font-black text-white mb-2">100% Security Guarantee</h3>
+
+                        <h3 class="text-xl font-black text-white mb-2">
+                            100% Security Guarantee
+                        </h3>
+
                         <p class="text-slate-300 text-sm leading-relaxed mb-6">
                             Fully encrypted accounts, zero hassle withdrawals, and complete peace of mind.
                         </p>
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn inline-block px-5 py-2.5 rounded-xl gold-button text-xs font-black">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn inline-block px-5 py-2.5 rounded-xl gold-button text-xs font-black">
                             Verify Security
                         </a>
+
                     </div>
 
                 </div>
 
             </div>
+
         </section>
 
-        <!-- ================= PAGE 5: JOIN TELEGRAM & CONFIGURATOR ================= -->
-        <section id="page-join" class="page-section hidden py-16 min-h-[70vh]">
+        <!-- ================= PAGE 5 JOIN TELEGRAM ================= -->
+        <section id="page-join"
+                 class="page-section hidden py-16 min-h-[70vh]">
+
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                
-                <!-- Telegram CTA Banner Card -->
+
+                <!-- Telegram CTA -->
                 <div class="bg-gradient-to-br from-mahalaxmi-navyLight via-mahalaxmi-navy to-slate-950 border-2 border-mahalaxmi-gold rounded-3xl p-8 sm:p-12 text-center shadow-2xl relative overflow-hidden">
+
                     <div class="w-20 h-20 bg-gradient-to-tr from-mahalaxmi-gold to-yellow-200 text-mahalaxmi-navyDark rounded-2xl flex items-center justify-center mx-auto text-4xl mb-6 shadow-2xl animate-bounce">
+
                         <i class="fa-brands fa-telegram"></i>
+
                     </div>
 
                     <h2 class="text-3xl sm:text-5xl font-black text-white mb-3">
-                        Join Official <br>
-                        <span class="gold-gradient-text font-royal text-3xl sm:text-5xl">AAP MAHALAXMI TELEGRAM</span>
+
+                        Join Official
+                        <br>
+
+                        <span class="gold-gradient-text font-royal text-3xl sm:text-5xl">
+                            AAP MAHALAXMI TELEGRAM
+                        </span>
+
                     </h2>
 
                     <p class="text-slate-300 text-base sm:text-lg max-w-xl mx-auto my-6 font-medium">
@@ -689,174 +1266,558 @@
                     </p>
 
                     <div class="max-w-md mx-auto">
-                        <a href="https://t.me/" target="_blank" class="tg-link-btn animate-pulse-glow w-full py-4 px-8 rounded-2xl bg-gradient-to-r from-telegram via-telegram-light to-telegram-dark text-white font-black text-2xl flex items-center justify-center space-x-3 shadow-2xl border-2 border-cyan-300/40 hover:scale-105 transition">
+
+                        <a href="https://t.me/+KmY_WfdYhas3OTdl"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="tg-link-btn animate-pulse-glow w-full py-4 px-8 rounded-2xl bg-gradient-to-r from-telegram via-telegram-light to-telegram-dark text-white font-black text-2xl flex items-center justify-center space-x-3 shadow-2xl border-2 border-cyan-300/40 hover:scale-105 transition">
+
                             <i class="fa-brands fa-telegram text-3xl"></i>
+
                             <span>Join Telegram Now</span>
+
                         </a>
+
                     </div>
 
                     <p class="text-xs text-mahalaxmi-gold font-black uppercase tracking-wider mt-6">
                         ⚡ Small Steps Big Income • 24*7 Deposit & Withdrawal
                     </p>
+
                 </div>
 
-                <!-- Live Telegram Link Configurator Tool -->
+                <!-- Configurator -->
                 <div class="mt-10 bg-mahalaxmi-navyLight border border-mahalaxmi-gold/40 rounded-2xl p-6 shadow-xl">
+
                     <div class="flex items-center space-x-3 mb-3">
+
                         <i class="fa-solid fa-link text-mahalaxmi-gold text-xl"></i>
-                        <h3 class="font-black text-white text-base">Owner Tool: Dynamic Telegram Link Configurator</h3>
+
+                        <h3 class="font-black text-white text-base">
+                            Owner Tool: Dynamic Telegram Link Configurator
+                        </h3>
+
                     </div>
+
                     <p class="text-xs text-slate-300 mb-4">
-                        Enter your official Telegram channel link (e.g. <code class="text-telegram-light">https://t.me/AapMahalaxmiOfficial</code>). Applying will instantly update every single button across all 5 pages!
+                        Enter your official Telegram channel link.
+                        Applying will instantly update every single button across all 5 pages!
                     </p>
+
                     <div class="flex flex-col sm:flex-row gap-3">
-                        <input type="url" id="custom-tg-url" placeholder="https://t.me/your_channel_handle" class="flex-grow bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 text-sm focus:outline-none focus:border-mahalaxmi-gold">
-                        <button onclick="updateTelegramLinks()" class="px-6 py-3 rounded-xl gold-button hover:brightness-110 transition shrink-0 text-sm font-black">
+
+                        <input type="url"
+                               id="custom-tg-url"
+                               placeholder="https://t.me/your_channel_handle"
+                               class="flex-grow bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 text-sm focus:outline-none focus:border-mahalaxmi-gold">
+
+                        <button onclick="updateTelegramLinks()"
+                                class="px-6 py-3 rounded-xl gold-button hover:brightness-110 transition shrink-0 text-sm font-black">
                             Apply Link to All Buttons
                         </button>
+
                     </div>
-                    <p id="link-status-msg" class="text-xs text-green-400 font-bold mt-2 hidden">
-                        <i class="fa-solid fa-circle-check mr-1"></i> Link Updated! All Telegram CTAs are now redirected to your new link.
+
+                    <p id="link-status-msg"
+                       class="text-xs text-green-400 font-bold mt-2 hidden">
+
+                        <i class="fa-solid fa-circle-check mr-1"></i>
+
+                        Link Updated! All Telegram CTAs are now redirected to your new link.
+
                     </p>
+
                 </div>
 
             </div>
+
         </section>
 
     </main>
 
-    <!-- Floating Telegram Action Button -->
-    <a href="https://t.me/" target="_blank" class="tg-link-btn fixed bottom-6 right-6 z-40 bg-gradient-to-r from-telegram to-telegram-dark text-white p-4 sm:px-6 sm:py-3.5 rounded-full shadow-2xl hover:scale-110 transition duration-300 flex items-center space-x-2 border-2 border-cyan-300/40 animate-pulse-glow">
+    <!-- ================= FLOATING TELEGRAM BUTTON ================= -->
+    <a href="https://t.me/+KmY_WfdYhas3OTdl"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="tg-link-btn fixed bottom-6 right-6 z-40 bg-gradient-to-r from-telegram to-telegram-dark text-white p-4 sm:px-6 sm:py-3.5 rounded-full shadow-2xl hover:scale-110 transition duration-300 flex items-center space-x-2 border-2 border-cyan-300/40 animate-pulse-glow">
+
         <i class="fa-brands fa-telegram text-3xl"></i>
-        <span class="hidden sm:inline font-black text-sm">Join Telegram</span>
+
+        <span class="hidden sm:inline font-black text-sm">
+            Join Telegram
+        </span>
+
     </a>
 
-    <!-- Footer Section -->
+    <!-- ================= FOOTER ================= -->
     <footer class="bg-slate-950 border-t border-mahalaxmi-gold/30 py-8 text-center text-slate-500 text-xs">
+
         <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+
             <div class="flex items-center space-x-2">
-                <span class="font-royal gold-gradient-text text-lg font-extrabold">AAP MAHALAXMI</span>
-                <span class="text-slate-400 font-bold">Book Hub</span>
+
+                <span class="font-royal gold-gradient-text text-lg font-extrabold">
+                    AAP MAHALAXMI
+                </span>
+
+                <span class="text-slate-400 font-bold">
+                    Book Hub
+                </span>
+
             </div>
-            <p>© 2026 Aap Mahalaxmi Book. All Rights Reserved. Safe & Secure 100% Trusted.</p>
+
+            <p>
+                © 2026 Aap Mahalaxmi Book. All Rights Reserved.
+                Safe & Secure 100% Trusted.
+            </p>
+
             <div class="flex space-x-4 text-xs font-bold">
-                <button onclick="navigateTo('home')" class="hover:text-mahalaxmi-gold">Home</button>
-                <button onclick="navigateTo('partners')" class="hover:text-mahalaxmi-gold">Partners</button>
-                <button onclick="navigateTo('how')" class="hover:text-mahalaxmi-gold">How It Works</button>
+
+                <button onclick="navigateTo('home')"
+                        class="hover:text-mahalaxmi-gold">
+                    Home
+                </button>
+
+                <button onclick="navigateTo('partners')"
+                        class="hover:text-mahalaxmi-gold">
+                    Partners
+                </button>
+
+                <button onclick="navigateTo('how')"
+                        class="hover:text-mahalaxmi-gold">
+                    How It Works
+                </button>
+
             </div>
+
         </div>
+
     </footer>
 
-    <!-- Global Telegram Link Modal Settings -->
-    <div id="config-modal" class="fixed inset-0 bg-slate-950/85 backdrop-blur-sm z-50 flex items-center justify-center hidden p-4">
+    <!-- ================= CONFIG MODAL ================= -->
+    <div id="config-modal"
+         class="fixed inset-0 bg-slate-950/85 backdrop-blur-sm z-50 flex items-center justify-center hidden p-4">
+
         <div class="bg-mahalaxmi-navy border-2 border-mahalaxmi-gold rounded-3xl p-6 max-w-md w-full shadow-2xl relative">
-            <button onclick="closeConfigModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white">
+
+            <button onclick="closeConfigModal()"
+                    class="absolute top-4 right-4 text-slate-400 hover:text-white">
+
                 <i class="fa-solid fa-xmark text-xl"></i>
+
             </button>
-            
+
             <div class="text-center mb-6">
+
                 <div class="w-12 h-12 rounded-2xl bg-mahalaxmi-gold/20 text-mahalaxmi-gold flex items-center justify-center text-xl mx-auto mb-3 border border-mahalaxmi-gold/40">
+
                     <i class="fa-solid fa-gear"></i>
+
                 </div>
-                <h3 class="text-xl font-black text-white">Set Telegram Channel Link</h3>
-                <p class="text-xs text-slate-400 mt-1">Updates all Telegram CTA buttons on the site</p>
+
+                <h3 class="text-xl font-black text-white">
+                    Set Telegram Channel Link
+                </h3>
+
+                <p class="text-xs text-slate-400 mt-1">
+                    Updates all Telegram CTA buttons on the site
+                </p>
+
             </div>
 
             <div class="space-y-4">
+
                 <div>
-                    <label class="block text-xs font-bold text-slate-300 mb-1">Telegram URL</label>
-                    <input type="url" id="modal-tg-url" placeholder="https://t.me/your_channel" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 text-sm focus:outline-none focus:border-mahalaxmi-gold">
+
+                    <label class="block text-xs font-bold text-slate-300 mb-1">
+                        Telegram URL
+                    </label>
+
+                    <input type="url"
+                           id="modal-tg-url"
+                           placeholder="https://t.me/your_channel"
+                           class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 text-sm focus:outline-none focus:border-mahalaxmi-gold">
+
                 </div>
-                <button onclick="saveModalLink()" class="w-full py-3 rounded-xl gold-button text-xs font-black transition">
+
+                <button onclick="saveModalLink()"
+                        class="w-full py-3 rounded-xl gold-button text-xs font-black transition">
                     Save Changes
                 </button>
+
             </div>
+
         </div>
+
     </div>
 
-    <!-- Dynamic JavaScript Logic -->
+    <!-- ================= JAVASCRIPT ================= -->
     <script>
-        let currentTelegramUrl = "https://t.me/";
 
-        // 5-Page Tab Navigation Controller
+        /* =========================================
+           TELEGRAM URL
+        ========================================= */
+
+        let currentTelegramUrl =
+            "https://t.me/+KmY_WfdYhas3OTdl";
+
+
+        /* =========================================
+           META PIXEL CONTACT EVENT
+        ========================================= */
+
+        function trackTelegramContact() {
+
+            if (typeof fbq === 'function') {
+
+                fbq('track', 'Contact');
+
+            }
+
+        }
+
+
+        /* =========================================
+           PAGE NAVIGATION
+        ========================================= */
+
         function navigateTo(pageId) {
-            const pages = document.querySelectorAll('.page-section');
-            pages.forEach(page => page.classList.add('hidden'));
 
-            const targetPage = document.getElementById('page-' + pageId);
+            const pages =
+                document.querySelectorAll('.page-section');
+
+            pages.forEach(page => {
+
+                page.classList.add('hidden');
+
+            });
+
+
+            const targetPage =
+                document.getElementById('page-' + pageId);
+
             if (targetPage) {
+
                 targetPage.classList.remove('hidden');
+
             }
 
-            // Tab bar styling highlight
-            const navButtons = document.querySelectorAll('.nav-btn');
+
+            const navButtons =
+                document.querySelectorAll('.nav-btn');
+
             navButtons.forEach(btn => {
-                btn.classList.remove('bg-gradient-to-r', 'from-mahalaxmi-gold', 'to-mahalaxmi-goldLight', 'text-mahalaxmi-navyDark', 'shadow-md');
-                btn.classList.add('text-slate-300', 'hover:text-white', 'hover:bg-slate-800');
+
+                btn.classList.remove(
+                    'bg-gradient-to-r',
+                    'from-mahalaxmi-gold',
+                    'to-mahalaxmi-goldLight',
+                    'text-mahalaxmi-navyDark',
+                    'shadow-md'
+                );
+
+                btn.classList.add(
+                    'text-slate-300',
+                    'hover:text-white',
+                    'hover:bg-slate-800'
+                );
+
             });
 
-            const activeNavBtn = document.getElementById('nav-' + pageId);
+
+            const activeNavBtn =
+                document.getElementById('nav-' + pageId);
+
             if (activeNavBtn) {
-                activeNavBtn.classList.remove('text-slate-300', 'hover:text-white', 'hover:bg-slate-800');
-                activeNavBtn.classList.add('bg-gradient-to-r', 'from-mahalaxmi-gold', 'to-mahalaxmi-goldLight', 'text-mahalaxmi-navyDark', 'shadow-md');
+
+                activeNavBtn.classList.remove(
+                    'text-slate-300',
+                    'hover:text-white',
+                    'hover:bg-slate-800'
+                );
+
+                activeNavBtn.classList.add(
+                    'bg-gradient-to-r',
+                    'from-mahalaxmi-gold',
+                    'to-mahalaxmi-goldLight',
+                    'text-mahalaxmi-navyDark',
+                    'shadow-md'
+                );
+
             }
 
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
 
-        // Toggle Mobile Navigation
-        function toggleMobileMenu() {
-            const menu = document.getElementById('mobile-menu');
-            const icon = document.getElementById('menu-icon');
-            menu.classList.toggle('hidden');
-            if (menu.classList.contains('hidden')) {
-                icon.className = 'fa-solid fa-bars text-xl';
-            } else {
-                icon.className = 'fa-solid fa-xmark text-xl';
-            }
-        }
-
-        // Apply Telegram URL to all buttons across 5 pages
-        function applyTelegramUrl(url) {
-            if (!url) return;
-            currentTelegramUrl = url;
-            const buttons = document.querySelectorAll('.tg-link-btn');
-            buttons.forEach(btn => {
-                btn.setAttribute('href', url);
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
             });
+
         }
 
-        // Update from Page 5 tool
-        function updateTelegramLinks() {
-            const input = document.getElementById('custom-tg-url');
-            const msg = document.getElementById('link-status-msg');
-            if (input && input.value.trim() !== '') {
-                applyTelegramUrl(input.value.trim());
-                msg.classList.remove('hidden');
-                setTimeout(() => msg.classList.add('hidden'), 3500);
+
+        /* =========================================
+           MOBILE MENU
+        ========================================= */
+
+        function toggleMobileMenu() {
+
+            const menu =
+                document.getElementById('mobile-menu');
+
+            const icon =
+                document.getElementById('menu-icon');
+
+            if (!menu || !icon) return;
+
+
+            menu.classList.toggle('hidden');
+
+
+            if (menu.classList.contains('hidden')) {
+
+                icon.className =
+                    'fa-solid fa-bars text-xl';
+
+            } else {
+
+                icon.className =
+                    'fa-solid fa-xmark text-xl';
+
             }
+
         }
 
-        // Modal Controls
-        function openConfigModal() {
-            document.getElementById('config-modal').classList.remove('hidden');
-            document.getElementById('modal-tg-url').value = currentTelegramUrl;
+
+        /* =========================================
+           APPLY TELEGRAM URL TO ALL BUTTONS
+        ========================================= */
+
+        function applyTelegramUrl(url) {
+
+            if (!url) return;
+
+
+            currentTelegramUrl = url;
+
+
+            const buttons =
+                document.querySelectorAll('.tg-link-btn');
+
+
+            buttons.forEach(btn => {
+
+                btn.setAttribute('href', url);
+
+                btn.setAttribute('target', '_blank');
+
+                btn.setAttribute(
+                    'rel',
+                    'noopener noreferrer'
+                );
+
+            });
+
         }
+
+
+        /* =========================================
+           PAGE 5 TELEGRAM URL UPDATE
+        ========================================= */
+
+        function updateTelegramLinks() {
+
+            const input =
+                document.getElementById('custom-tg-url');
+
+            const msg =
+                document.getElementById('link-status-msg');
+
+
+            if (
+                input &&
+                input.value.trim() !== ''
+            ) {
+
+                applyTelegramUrl(
+                    input.value.trim()
+                );
+
+
+                if (msg) {
+
+                    msg.classList.remove('hidden');
+
+
+                    setTimeout(() => {
+
+                        msg.classList.add('hidden');
+
+                    }, 3500);
+
+                }
+
+            }
+
+        }
+
+
+        /* =========================================
+           MODAL CONTROLS
+        ========================================= */
+
+        function openConfigModal() {
+
+            const modal =
+                document.getElementById('config-modal');
+
+            const input =
+                document.getElementById('modal-tg-url');
+
+
+            if (modal) {
+
+                modal.classList.remove('hidden');
+
+            }
+
+
+            if (input) {
+
+                input.value =
+                    currentTelegramUrl;
+
+            }
+
+        }
+
 
         function closeConfigModal() {
-            document.getElementById('config-modal').classList.hidden = true;
-            document.getElementById('config-modal').classList.add('hidden');
+
+            const modal =
+                document.getElementById('config-modal');
+
+            if (modal) {
+
+                modal.classList.add('hidden');
+
+            }
+
         }
 
+
         function saveModalLink() {
-            const val = document.getElementById('modal-tg-url').value.trim();
+
+            const input =
+                document.getElementById('modal-tg-url');
+
+            if (!input) return;
+
+
+            const val =
+                input.value.trim();
+
+
             if (val) {
+
                 applyTelegramUrl(val);
-                const page5Input = document.getElementById('custom-tg-url');
-                if (page5Input) page5Input.value = val;
+
+
+                const page5Input =
+                    document.getElementById('custom-tg-url');
+
+
+                if (page5Input) {
+
+                    page5Input.value = val;
+
+                }
+
             }
+
+
             closeConfigModal();
+
         }
+
+
+        /* =========================================
+           PAGE LOAD
+        ========================================= */
+
+        document.addEventListener(
+            'DOMContentLoaded',
+            function () {
+
+                /*
+                 * Set Telegram URL to every CTA
+                 */
+                applyTelegramUrl(
+                    currentTelegramUrl
+                );
+
+
+                /*
+                 * Set input values
+                 */
+                const customInput =
+                    document.getElementById(
+                        'custom-tg-url'
+                    );
+
+                if (customInput) {
+
+                    customInput.value =
+                        currentTelegramUrl;
+
+                }
+
+
+                const modalInput =
+                    document.getElementById(
+                        'modal-tg-url'
+                    );
+
+                if (modalInput) {
+
+                    modalInput.value =
+                        currentTelegramUrl;
+
+                }
+
+
+                /*
+                 * META PIXEL CONTACT TRACKING
+                 *
+                 * Any click on .tg-link-btn
+                 * will send Contact event.
+                 */
+                document.addEventListener(
+                    'click',
+                    function (event) {
+
+                        const telegramButton =
+                            event.target.closest(
+                                '.tg-link-btn'
+                            );
+
+
+                        if (!telegramButton) {
+                            return;
+                        }
+
+
+                        /*
+                         * Send Meta Contact event
+                         */
+                        trackTelegramContact();
+
+                    }
+                );
+
+            }
+        );
+
     </script>
+
 </body>
 </html>
